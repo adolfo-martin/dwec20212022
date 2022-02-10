@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hola-mundo';
+  message = 'Espere por favor'
+
+  // @ts-ignore
+  showWaitplease(e) {
+    this.message = '';
+  }
 }
